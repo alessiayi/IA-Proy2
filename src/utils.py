@@ -114,5 +114,5 @@ def normalization(data):
         maximum = max(column)
         normalized_column = np.asarray([(n - minimum) / (maximum - minimum) for n in column])
         normalized_data.append(normalized_column)
-    return np.asarray(normalized_data).transpose() 
-
+    return np.asarray(normalized_data).transpose()
+    
