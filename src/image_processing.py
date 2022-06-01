@@ -69,3 +69,4 @@ def analyze(filename, tumor_pixels):
     Y = readJsonData()
     ratio = ratioOfDetectedPointsInsideOriginalTumor(filename, Y, tumor_pixels)
     print(f"El ratio de puntos para la imagen {filename} es: {ratio}%")
+    return ratio
